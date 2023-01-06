@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header section */
+.header {
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url('../images/donation8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.banner {
+    text-align: center;
+    padding: 120px 320px;
+}
+
+.section-title {
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.btn-primary {
+    margin-top: 20px;
+    background: #FF5959;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    color: #ffff;
+    font-size: 20px
+}
+
+.title-description {
+    margin-top: 15px;
+    color: aliceblue;
+}
+
+/* price section styles */
+.donate-container {
+    height: 500px;
+}
+
+.price-title {
+    margin-top: 130px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+}
+
+.price-description {
+    padding: 0 220px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-top: 20px;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+
+}
+
+.donate-price {
+    border-radius: 5px;
+    padding: 40px 25px;
+    margin-left: 22px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background: #FAFAFA;
+    border-radius: 5px;
+}
+
+.fixed-price {
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+}
+
+.price-description {
+    margin-top: 40px;
+}
+
+.taka-description {
+    margin-bottom: 15px;
+}
+
+/* card section */
+.card-section {
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+}
+
+.card-item {
+    margin-top: 40px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 60px 25px;
+    width: 230px;
+    height: 170px;
+    margin-left: 24px;
+
+}
+
+.card-title {
+    margin-top: 10px;
+    color: #121212;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.card-description {
+    margin-top: 10px;
+    color: #707070;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* donate description */
+.donate-section1 {
+    margin-top: 130px;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    gap: 100px;
+}
+
+.donate1 {
+    height: 350px;
+    width: 400px;
+    padding-left: 80px;
+    margin-top: 30px;
+}
+
+.donate-title1{
+    color: #121212;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.donate-description1 {
+    margin-bottom: 15px;
+    color: #707070;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.btn-secondary {
+    margin-top: 30px;
+    border: none;
+    width: 230px;
+    height: 56px;
+    background: #FF5959;
+    border-radius: 5px;
+}
+
+.danate-img1 {
+    height: 350px;
+    width: 400px;
+}
