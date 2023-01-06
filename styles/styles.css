@@ -5,7 +5,7 @@
 
 /* header section */
 .header {
-    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url('../images/donation8.jpg');
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url('../images/donation6.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -141,7 +141,7 @@
     margin-top: 30px;
 }
 
-.donate-title1{
+.donate-title1 {
     color: #121212;
     font-weight: 700;
     font-size: 35px;
@@ -156,7 +156,10 @@
 }
 
 .btn-secondary {
-    margin-top: 30px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
     border: none;
     width: 230px;
     height: 56px;
@@ -167,4 +170,109 @@
 .danate-img1 {
     height: 350px;
     width: 400px;
+}
+
+/* second donate styles */
+.donate-section2 {
+    margin-top: 30px;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    gap: 100px;
+}
+
+.donate2 {
+    height: 350px;
+    width: 400px;
+    padding-left: 80px;
+    margin-top: 30px;
+}
+
+.donate-title2 {
+    color: #121212;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.donate-description2 {
+    margin-bottom: 15px;
+    color: #707070;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.danate-img2 {
+    margin-left: 100px;
+    height: 350px;
+    width: 400px;
+}
+
+/* update section */
+.update-section {
+    height: 500px;
+    margin-top: 130px;
+}
+
+.update-title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.update-description {
+    text-align: center;
+    padding: 50px;
+}
+
+.form {
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 80px;
+    background: #FFF4D6;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn-subscribe {
+    background: #FF5959;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    width: 100px;
+    height: 43px;
+    color: #FFFFFF;
+}
+
+#email {
+    color: #AA9F9F;
+    width: 250px;
+    height: 38px;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+}
+
+/* footer styles */
+.footer-section {
+    text-align: center;
+    background: #0B0D17;
+    height: 200px;
+}
+
+.footer-container {
+    margin-top: 150px;
+    padding: 45px;
+}
+
+.humble {
+
+    font-family: 'Lobster';
+    color: #FF5959;
+    margin-bottom: 15px;
+}
+
+.footer-description {
+
+    color: #D9DBE1;
+
 }
